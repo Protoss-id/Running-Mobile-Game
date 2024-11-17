@@ -1,0 +1,20 @@
+<dependencies>
+  <compile
+      roots="C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:UnityAds:@aar">
+    <dependency
+        name="C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name=":UnityAds:@aar"
+        simpleName=":UnityAds"/>
+  </package>
+</dependencies>

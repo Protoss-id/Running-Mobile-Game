@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Protoss.RunningMobileGameMockUp"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="35" />
+10-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-54
+19-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:19-51
+20    <uses-feature
+20-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-11:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-55
+22        android:required="false" />
+22-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-33
+23    <uses-feature
+23-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-14:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-52
+25        android:required="false" />
+25-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-33
+26    <uses-feature
+26-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-17:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-63
+28        android:required="false" />
+28-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-33
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:5-20:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-72
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-33
+32
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:9:5-79
+33-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:9:22-76
+34    <uses-permission android:name="android.permission.INTERNET" />
+34-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:10:5-67
+34-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:10:22-64
+35    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+35-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:11:5-79
+35-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:11:22-76
+36
+37    <application
+37-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+38        android:extractNativeLibs="true"
+38-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:18-50
+39        android:icon="@mipmap/app_icon"
+39-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+40        android:label="@string/app_name" >
+40-->C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+41        <meta-data
+41-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-25:33
+42            android:name="unity.splash-mode"
+42-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-45
+43            android:value="0" />
+43-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-30
+44        <meta-data
+44-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-28:36
+45            android:name="unity.splash-enable"
+45-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-47
+46            android:value="True" />
+46-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-33
+47        <meta-data
+47-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-31:36
+48            android:name="unity.launch-fullscreen"
+48-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-51
+49            android:value="True" />
+49-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-33
+50        <meta-data
+50-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-34:36
+51            android:name="unity.render-outside-safearea"
+51-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-57
+52            android:value="True" />
+52-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-33
+53        <meta-data
+53-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:9-37:50
+54            android:name="notch.config"
+54-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-40
+55            android:value="portrait|landscape" />
+55-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-47
+56        <meta-data
+56-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:9-40:36
+57            android:name="unity.auto-report-fully-drawn"
+57-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-57
+58            android:value="true" />
+58-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-33
+59
+60        <activity
+60-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-63:20
+61            android:name="com.unity3d.player.UnityPlayerActivity"
+61-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-66
+62            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+62-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-194
+63            android:exported="true"
+63-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-36
+64            android:hardwareAccelerated="false"
+64-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-48
+65            android:launchMode="singleTask"
+65-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-44
+66            android:resizeableActivity="false"
+66-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-47
+67            android:screenOrientation="userPortrait"
+67-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-53
+68            android:theme="@style/UnityThemeSelector" >
+68-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-54
+69            <intent-filter>
+69-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-55:29
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:17-77
+70-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:27-74
+71
+72                <action android:name="android.intent.action.MAIN" />
+72-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:17-69
+72-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:25-66
+73            </intent-filter>
+74
+75            <meta-data
+75-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-59:40
+76                android:name="unityplayer.UnityActivity"
+76-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:17-57
+77                android:value="true" />
+77-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:17-37
+78            <meta-data
+78-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-62:40
+79                android:name="notch_support"
+79-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:17-45
+80                android:value="true" />
+80-->[:unityLibrary] C:\Users\Joshua\Unity project\Running Mobile Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:17-37
+81        </activity>
+82        <activity
+82-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:14:9-18:74
+83            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+83-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:15:13-74
+84            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+84-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:16:13-170
+85            android:hardwareAccelerated="true"
+85-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:17:13-47
+86            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+86-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:18:13-71
+87        <activity
+87-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:19:9-23:86
+88            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+88-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:20:13-85
+89            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+89-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:21:13-170
+90            android:hardwareAccelerated="true"
+90-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:22:13-47
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+91-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:23:13-83
+92        <activity
+92-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:24:9-28:86
+93            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+93-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:25:13-93
+94            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+94-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:26:13-170
+95            android:hardwareAccelerated="false"
+95-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:27:13-48
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+96-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:28:13-83
+97        <activity
+97-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:29:9-33:74
+98            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+98-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:30:13-82
+99            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+99-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:31:13-170
+100            android:hardwareAccelerated="false"
+100-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:32:13-48
+101            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+101-->[:UnityAds:] C:\Users\Joshua\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:33:13-71
+102    </application>
+103
+104</manifest>
